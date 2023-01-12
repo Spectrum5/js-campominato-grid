@@ -15,8 +15,35 @@
 
     </head>
 
-    <body>
+    <body class="d-flex flex-column">
 
+        <header class="d-flex justify-content-between">
+
+            <div class="image">
+                <img class="logo-img" src="img/logo.png" alt="Logo Boolean">
+            </div>
+                
+            <div class="align-self-center me-3">
+                <span><strong>Difficulty:</strong></span>
+
+                <select name="difficulty" id="difficulty">
+                    <option value="easy">Facile</option>
+                    <option value="normal">Normale</option>
+                    <option value="hard">Difficile</option>
+                </select>
+                <input id="my-btn" type="button" value="Play">
+            </div>
+        </header>
+
+        <main class="d-flex justify-content-center align-items-center flex-grow-1">
+            <div class="container d-flex flex-wrap">
+        
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
 
         <!-- MY JS -->
         <script type="text/javascript" src="js/scripts.js"></script>
